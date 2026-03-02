@@ -1,6 +1,8 @@
 .spinner {
-    width: 20px;
-    border: 5px solid #bbb;
+    width: 1px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 5px solid blue;
     animation: spin 1s linear infinite; /* Required */
 }
 
