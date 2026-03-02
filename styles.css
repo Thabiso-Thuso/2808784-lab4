@@ -1,0 +1,29 @@
+.spinner {
+    width: 20px;
+    border: 5px solid #bbb;
+    animation: spin 1s linear infinite; /* Required */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.country-card{
+    background-color: #ffffff ;
+    border: 10px 1px solid blanchedalmond;
+    padding: 10px;
+}
+.border-grid {
+    display: grid; /* or display: flex */
+    /* Additional layout properties */
+    border-width: medium;
+    border-style: inset;
+    border-color: blanchedalmond;
+}
+.error {
+    color: red;
+    /* Additional styling */
+}
+.hidden {
+    display: none;
+}
